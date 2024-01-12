@@ -87,7 +87,7 @@ button {
   padding: 8px 16px;
 }
 
-img {
+.hero img {
   display: flex;
   min-width: 533px;
   min-height: 300px;
@@ -99,4 +99,49 @@ img {
 
 .hero p {
   text-align: justify;
+}
+
+.second-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gambar img {
+  display: flex;
+  max-width: 250px;
+  max-height: 250px;
+  flex: 1;
+  border: 2px solid #1f2937;
+  border-radius: 8px;
+}
+
+.illustrations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  gap: 64px;
+  margin: 64px;
+  flex: 1;
+  margin-top: 0px;
+}
+
+.illus {
+  max-height: 250px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.teks {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 64px;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
 }
